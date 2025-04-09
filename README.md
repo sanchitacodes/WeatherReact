@@ -1,12 +1,41 @@
-# React + Vite
+Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive weather forecast application built with React and Vite, integrated with the OpenWeatherMap API. It displays real-time weather updates based on the city name entered by the user, along with a recent search history and a theme toggle feature.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack
 
-## Expanding the ESLint configuration
+Frontend Framework: React.js (with Hooks)
+Build Tool: Vite
+UI Library: Material UI (MUI)
+API:OpenWeatherMap
+Deployment: Vercel
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+Features
+
+-Search weather by city name  
+-Display temperature, humidity, wind speed, and condition  
+-Recent search history (up to 5 cities)  
+-Weather condition icons and description  
+
+---
+
+Setup Instructions
+1. Clone the Repository: git clone https://github.com/your-username/weather-app.git
+
+
+2. Install dependencies
+
+-npm install
+-npm install @mui/material @emotion/react @emotion/styled   
+-npm install json
+
+3. npm run dev
+
+---
+
+Rate Limit: 60 calls per minute
+API_KEY: 8228802c2fc2bac108e6aaf0c849a393
